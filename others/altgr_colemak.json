@@ -1,0 +1,82 @@
+// Colemak AltGr layer
+// https://colemak.com/Multilangual
+{
+  "filter": "no tmk",
+  "singletonKeys": [
+    [ "Alt_R", "AltGr" ]
+  ],
+  "shiftlevels": [ "AltGr", "Shift+AltGr" ],
+  "keys": [
+    { "pos": "~", "letters": [ "tilde", "" ] },
+    { "pos": "1", "letters": [ "¡", "¹" ] },
+    { "pos": "2", "letters": [ "º", "²" ] },
+    { "pos": "3", "letters": [ "ª", "³" ] },
+    { "pos": "4", "letters": [ "¢", "£" ] },
+    { "pos": "5", "letters": [ "€", "¥" ] },
+    { "pos": "6", "letters": [ "ħ", "Ħ" ] },
+    { "pos": "7", "letters": [ "ð", "Ð" ] },
+    { "pos": "8", "letters": [ "þ", "Þ" ] },
+    { "pos": "9", "letters": [ "‘", "“" ] },
+    { "pos": "0", "letters": [ "’", "”" ] },
+    { "pos": "-", "letters": [ "–", "—" ] },
+    { "pos": "+", "letters": [ "×", "÷" ] },
+    { "pos": "Q", "letters": [ "ä", "Ä" ] },
+    { "pos": "W", "letters": [ "å", "Å" ] },
+    { "pos": "E", "letters": [ "ã", "Ã" ] },
+    { "pos": "R", "letters": [ "ø", "Ø" ] },
+    { "pos": "T", "letters": [ "ogonek", "" ] },
+    { "pos": "Y", "letters": [ "đ", "Đ" ] },
+    { "pos": "U", "letters": [ "7", "" ] },
+    { "pos": "I", "letters": [ "8", "" ] },
+    { "pos": "O", "letters": [ "9", "" ] },
+    { "pos": "P", "letters": [ "*", "" ] },
+    { "pos": "[", "letters": [ "«", "‹" ] },
+    { "pos": "]", "letters": [ "»", "›" ] },
+    { "pos": "\\", "letters": [ "cdk:special", "" ] },
+    { "pos": "A", "letters": [ "á", "Á" ] },
+    { "pos": "S", "letters": [ "grave", "" ] },
+    { "pos": "D", "letters": [ "ß", "" ] },
+    { "pos": "F", "letters": [ "acute", "doubleacute" ] },
+    { "pos": "G", "letters": [ "diaeresis", "" ] },
+    { "pos": "H", "letters": [ "0", "" ] },
+    { "pos": "J", "letters": [ "4", "" ] },
+    { "pos": "K", "letters": [ "5", "" ] },
+    { "pos": "L", "letters": [ "6", "" ] },
+    { "pos": ";", "letters": [ "+", "" ] },
+    { "pos": "'", "letters": [ "õ", "Õ" ] },
+    { "pos": "Z", "letters": [ "æ", "Æ" ] },
+    { "pos": "X", "letters": [ "circumflex", "" ] },
+    { "pos": "C", "letters": [ "ç", "Ç" ] },
+    { "pos": "V", "letters": [ "œ", "Œ" ] },
+    { "pos": "B", "letters": [ "breve", "" ] },
+    { "pos": "N", "letters": [ macron", "" ] },
+    { "pos": "M", "letters": [ "1", "caron" ] },
+    { "pos": ",", "letters": [ "2", "cedilla" ] },
+    { "pos": ".", "letters": [ "3", "abovedot" ] },
+    { "pos": "/", "letters": [ "¿", "" ] },
+    { "pos": "space", "letters": [ " ", " " ] }
+  ],
+  "customDeadKeys": [
+    {
+      "name": "special",
+      "stringMap": [
+        [ "c", "©" ],
+        [ "r", "®" ],
+        [ "t", "™" ],
+        [ "d", "°" ],
+        [ "m", "µ" ],
+        [ "n", "№" ],
+        [ "p", "¶" ],
+        [ "s", "§" ],
+        [ ".", "…" ],
+        [ "+", "±" ],
+        [ "=", "≠" ],
+        [ "<", "≤" ],
+        [ ">", "≥" ],
+        [ "~", "≈" ],
+        [ "%", "‰" ],
+        [ "|", "¦" ]
+      ]
+    }
+  ]
+}
