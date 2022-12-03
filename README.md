@@ -31,6 +31,9 @@ Installing to Windows is a bit complicated since Windows is so bad. But if you r
 11. Now you should be able to press Alt+Shift a few times to select the new keyboard layout.
 12. If it doesn't work, either resign or drop Windows completely.
 
+It might also stop working after a while.
+In that case you should run the `setup.exe`-file again and choose to repair the keyboard layout.
+
 [1]: https://colemakmods.github.io/mod-dh/
 [2]: https://github.com/39aldo39/klfc
 [3]: https://nixos.wiki/wiki/Nix_package_manager
