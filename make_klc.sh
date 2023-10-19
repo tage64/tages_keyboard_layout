@@ -1,5 +1,5 @@
 #!/usr/bin/sh
-rm -r build/klc && \
+rm -rf build/klc && \
   klfc --from-json tage.json tage_altgr.json --klc build/klc && \
   cd build/klc && \
   sd '\n' '\r\n' "$(ls)" && \

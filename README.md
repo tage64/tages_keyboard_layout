@@ -14,9 +14,18 @@ $ cd klfc
 $ nix-env -i -f .
 ```
 
-### Installing to Windows
+## Installing to Windows
 
 Installing to Windows is a bit complicated since Windows is so bad. But if you really want, here's a step-by-step guide:
+
+### Pre-built binary
+
+Inside the `windows_build` directory, there is a pre-built setup executable for Windows.
+When I ran `Setup.exe` inside this directory, the keyboard layout was seemlessly installed and availlable.
+Note though that it can't be ran inside a WSL filesystem, so you'll need to copy the entire folder to Window's normal file system first.
+If this for some reason doesn't work for you, read on:
+
+### Building
 
 1. Install [Microsoft Keyboard Layout Creator (MSKLC)][4]. Because Microsoft don't want their users to be creative, you might need to install .net3.5 for the MSKLC installation to succeed.
 2. Run `./make_klc` from the root of this repo.
